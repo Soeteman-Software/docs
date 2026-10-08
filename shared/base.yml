@@ -44,6 +44,10 @@ extra:
 plugins:
   - search
 
+# Also fail --strict builds on links to headings that don't exist.
+validation:
+  anchors: warn
+
 markdown_extensions:
   - admonition
   - attr_list

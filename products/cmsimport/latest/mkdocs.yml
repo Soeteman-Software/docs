@@ -3,3 +3,21 @@ site_name: CMSImport documentation
 site_url: https://docs.soetemansoftware.nl/cmsimport/latest/
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Import:
+      - Import wizard: import/wizard.md
+      - Block editor mapping: import/block-editors.md
+      - Multilingual mapping: import/multilingual.md
+      - Structured content import: import/structured-content.md
+      - Related media import: import/media.md
+      - Lookups: import/lookups.md
+  - Schedule imports: scheduling.md
+  - Configuration: configuration.md
+  - Extend CMSImport:
+      - extending/index.md
+      - Field providers: extending/field-providers.md
+      - Advanced setting providers: extending/advanced-setting-providers.md
+      - Data providers: extending/data-providers.md
+      - UI fields: extending/ui-fields.md
+      - Notifications: extending/notifications.md
+  - Troubleshooting: troubleshooting.md
