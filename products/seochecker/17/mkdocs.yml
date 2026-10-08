@@ -3,3 +3,20 @@ site_name: SEOChecker documentation
 site_url: https://docs.soetemansoftware.nl/seochecker/17/
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - For content editors:
+      - SEO property: editors/seo-property.md
+      - Social preview: editors/social.md
+  - Validate pages: validation.md
+  - Issue overviews: issues.md
+  - Redirect manager: redirects.md
+  - Configuration:
+      - Domain settings: configuration/domain-settings.md
+      - Document Type settings: configuration/document-types.md
+      - Backoffice settings: configuration/backoffice-settings.md
+      - Property editors: configuration/property-editors.md
+      - appsettings.json: configuration/appsettings.md
+  - Render meta tags: rendering.md
+  - Extend SEOChecker: extending.md
+  - Validation rules: validation-rules.md
+  - Troubleshooting: troubleshooting.md
