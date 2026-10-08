@@ -3,3 +3,8 @@ site_name: MemberExport documentation
 site_url: https://docs.soetemansoftware.nl/memberexport/17/
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Export members: export.md
+  - Configuration: configuration.md
+  - Extend MemberExport: extending.md
+  - Troubleshooting: troubleshooting.md
