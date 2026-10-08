@@ -15,6 +15,7 @@ The example below shows all settings with their default values. Only add the set
     "LogPublicMedia": false,
     "CsvDelimiter": ",",
     "CsvStringIndicator": "\"",
+    "DisableMediaprotectDialog": false,
     "DisableReturnUrl": true,
     "DefaultLoginNode": 0,
     "DefaultErrorNode": 0,
@@ -40,6 +41,11 @@ check backoffice users the same way as visitors.
 | `LogPublicMedia` | `false` | Also logs requests for files that are not protected. |
 | `CsvDelimiter` | `,` | The delimiter used when you export the log to CSV. |
 | `CsvStringIndicator` | `"` | The text qualifier used when you export the log to CSV. |
+
+## DisableMediaprotectDialog
+
+Set to `true` to hide the **Public Access** action on media. Use this when you only change protection from code
+with the [Protection API](developers/library.md#protection-api).
 
 ## DisableReturnUrl
 

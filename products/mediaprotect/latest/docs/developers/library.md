@@ -41,20 +41,19 @@ Most methods accept either the ID of a media item or the path of a file, for exa
 
 ## Protection API
 
-Use the `MediaProtect.Library.Protection` class to change protection from code. Create it with the
-`IMediaAccessInfoService`, which you inject through the constructor:
+Use the `MediaProtect.Library.Protection` class to change protection from code. Inject it through the
+constructor:
 
 ```csharp
-using MediaProtect.Common.Services.Access;
 using MediaProtect.Library;
 
 public class DownloadsProtector
 {
     private readonly Protection _protection;
 
-    public DownloadsProtector(IMediaAccessInfoService mediaAccessInfoService)
+    public DownloadsProtector(Protection protection)
     {
-        _protection = new Protection(mediaAccessInfoService);
+        _protection = protection;
     }
 
     public void ProtectForMembers(int mediaId, int loginPageId, int errorPageId)
