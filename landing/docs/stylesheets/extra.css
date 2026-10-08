@@ -1,0 +1,7 @@
+/* Product logos on the landing page cards: natural size (49x27), so they stay sharp. */
+.md-typeset .product-logo {
+  width: 49px;
+  height: 27px;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
