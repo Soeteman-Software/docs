@@ -10,7 +10,7 @@ Documentation for our Umbraco packages. Pick a product to get started.
 
 <div class="grid cards" markdown>
 
--   :material-database-import:{ .lg .middle } **CMSImport**
+-   ![CMSImport logo](assets/logos/cmsimport.png){ .product-logo } **CMSImport**
 
     ---
 
@@ -18,7 +18,7 @@ Documentation for our Umbraco packages. Pick a product to get started.
 
     [:octicons-arrow-right-24: CMSImport documentation](cmsimport/latest/)
 
--   :material-shield-lock:{ .lg .middle } **MediaProtect**
+-   ![MediaProtect logo](assets/logos/mediaprotect.png){ .product-logo } **MediaProtect**
 
     ---
 
@@ -26,7 +26,7 @@ Documentation for our Umbraco packages. Pick a product to get started.
 
     [:octicons-arrow-right-24: MediaProtect documentation](mediaprotect/latest/)
 
--   :material-account-arrow-right:{ .lg .middle } **MemberExport**
+-   ![MemberExport logo](assets/logos/memberexport.png){ .product-logo } **MemberExport**
 
     ---
 
@@ -34,7 +34,7 @@ Documentation for our Umbraco packages. Pick a product to get started.
 
     [:octicons-arrow-right-24: MemberExport documentation](memberexport/latest/)
 
--   :material-magnify-scan:{ .lg .middle } **SEOChecker**
+-   ![SEOChecker logo](assets/logos/seochecker.png){ .product-logo } **SEOChecker**
 
     ---
 
