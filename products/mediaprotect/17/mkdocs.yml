@@ -1,0 +1,5 @@
+INHERIT: ../../../shared/base.yml
+site_name: MediaProtect documentation
+site_url: https://docs.soetemansoftware.nl/mediaprotect/17/
+nav:
+  - Home: index.md

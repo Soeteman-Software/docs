@@ -1,0 +1,40 @@
+# Landing page at the site root. Not versioned, so it does not inherit shared/base.yml.
+site_name: Soeteman Software documentation
+site_url: https://docs.soetemansoftware.nl/
+copyright: Copyright &copy; Soeteman Software
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.footer
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Links to /<product>/ point outside this MkDocs project, so don't fail --strict on them.
+validation:
+  links:
+    unrecognized_links: ignore
