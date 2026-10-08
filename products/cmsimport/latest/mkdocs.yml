@@ -1,0 +1,5 @@
+INHERIT: ../../../shared/base.yml
+site_name: CMSImport documentation
+site_url: https://docs.soetemansoftware.nl/cmsimport/latest/
+nav:
+  - Home: index.md

@@ -1,0 +1,7 @@
+# Product metadata used by scripts/build.py
+name: CMSImport
+versions:
+  - folder: "latest"
+    title: "Latest (v18)"
+  - folder: "17"
+    title: "v17"

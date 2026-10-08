@@ -1,0 +1,5 @@
+INHERIT: ../../../shared/base.yml
+site_name: SEOChecker documentation
+site_url: https://docs.soetemansoftware.nl/seochecker/latest/
+nav:
+  - Home: index.md

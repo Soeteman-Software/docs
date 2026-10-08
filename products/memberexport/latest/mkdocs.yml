@@ -1,0 +1,5 @@
+INHERIT: ../../../shared/base.yml
+site_name: MemberExport documentation
+site_url: https://docs.soetemansoftware.nl/memberexport/latest/
+nav:
+  - Home: index.md
