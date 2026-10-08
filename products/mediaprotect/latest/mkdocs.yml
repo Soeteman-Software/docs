@@ -3,3 +3,11 @@ site_name: MediaProtect documentation
 site_url: https://docs.soetemansoftware.nl/mediaprotect/latest/
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Protect media: protect-media.md
+  - Dashboards: dashboards.md
+  - Configuration: configuration.md
+  - Developers:
+      - Library: developers/library.md
+      - Notifications: developers/notifications.md
+  - Troubleshooting: troubleshooting.md
