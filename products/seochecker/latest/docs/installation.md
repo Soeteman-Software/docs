@@ -4,6 +4,10 @@ This page explains how to install SEOChecker, add your license and give users ac
 
 ## Install the package
 
+!!! note
+    This version of SEOChecker is for Umbraco 19, which runs on .NET 11. On Umbraco 18 or 17, pick that
+    version in the version selector at the top of the page.
+
 Install SEOChecker from NuGet in your Umbraco project:
 
 ```bash

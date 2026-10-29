@@ -31,5 +31,6 @@ See `README.md` for layout and build commands.
 - Code and config: fenced blocks with a language (`csharp`, `json`, `xml`, `bash`), complete and copy-pasteable.
 - Images: PNG in `docs/assets/images/`, named `<page>-<n>.png`, always with meaningful alt text. Crop to the
   relevant UI area; no screenshots of text that could be written as text.
-- Version differences: write `latest` first, then copy to `17/` and change only what differs.
+- Version differences: write `latest` first, then copy to the older version folders (`18/`, `17/`) and change
+  only what differs.
 - Links: relative links to `.md` files inside a version; never hard-code another version's URL.

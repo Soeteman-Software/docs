@@ -4,10 +4,10 @@ This page explains how to install CMSImport, add extra data sources and activate
 
 ## Install the package
 
-Install CMSImport from NuGet in your Umbraco project:
+Install the Umbraco 17 version of CMSImport from NuGet in your Umbraco project:
 
 ```bash
-dotnet add package CMSImport
+dotnet add package CMSImport --version "17.*"
 ```
 
 Run the site and log in to the backoffice. You now have an **Import** section.
@@ -21,10 +21,10 @@ Run the site and log in to the backoffice. You now have an **Import** section.
 BlogML, JSON, RSS and WordPress data sources ship as separate packages. Install only the ones you need:
 
 ```bash
-dotnet add package CMSImport.DataProviders.BlogML
-dotnet add package CMSImport.DataProviders.JSON
-dotnet add package CMSImport.DataProviders.RSS
-dotnet add package CMSImport.DataProviders.Wordpress
+dotnet add package CMSImport.DataProviders.BlogML --version "17.*"
+dotnet add package CMSImport.DataProviders.JSON --version "17.*"
+dotnet add package CMSImport.DataProviders.RSS --version "17.*"
+dotnet add package CMSImport.DataProviders.Wordpress --version "17.*"
 ```
 
 ## Activate your PRO license
