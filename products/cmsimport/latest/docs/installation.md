@@ -4,6 +4,10 @@ This page explains how to install CMSImport, add extra data sources and activate
 
 ## Install the package
 
+!!! note
+    This version of CMSImport is for Umbraco 19, which runs on .NET 11. On Umbraco 18 or 17, pick that
+    version in the version selector at the top of the page.
+
 Install CMSImport from NuGet in your Umbraco project:
 
 ```bash

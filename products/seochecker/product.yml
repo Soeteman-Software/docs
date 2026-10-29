@@ -2,6 +2,8 @@
 name: SEOChecker
 versions:
   - folder: "latest"
-    title: "Latest (v18)"
+    title: "Latest (v19)"
+  - folder: "18"
+    title: "v18"
   - folder: "17"
     title: "v17"
