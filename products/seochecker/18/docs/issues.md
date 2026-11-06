@@ -10,10 +10,9 @@ checks.
 
 ![Validation issues overview with numbered controls](assets/images/issues-1.png)
 
-1. Select issues for a bulk action: **Revalidate** or **Delete** the selected items.
+1. Select issues to delete them.
 2. Open the document.
-3. Open the template of the document. Only available to users with access to templates.
-4. Search the issues.
+3. Search the issues.
 
 ## Inbound link errors
 
@@ -27,9 +26,9 @@ Links SEOChecker can't fix are listed in this overview.
 
 1. The broken URL.
 2. Pick the page to redirect to.
-3. Set up the redirect with the advanced options. See [Redirect manager](redirects.md).
+3. Set up the redirect with all its options. See [Redirect manager](redirects.md).
 4. Search the errors.
-5. Select errors for a bulk action: **Assign** them to one page, **Delete** them or **Ignore** them.
+5. Select errors to delete or ignore them.
 6. Save your changes.
 
 After you pick a page, visitors who request the broken URL are redirected to it. You can change the redirect
@@ -47,11 +46,11 @@ This overview lists issues in the configuration of the website, such as canonica
 ![Configuration errors overview](assets/images/issues-3.png)
 
 1. Select issues to delete or ignore them.
-2. Filter on a specific issue.
+2. Search the issues.
 
 ## Delete or ignore an issue
 
-Click **Delete** in any overview to remove an issue.
+Select an issue and click **Delete selected** in any overview to remove it.
 
 ![Delete dialog with the Ignore this issue next time option](assets/images/issues-4.png)
 

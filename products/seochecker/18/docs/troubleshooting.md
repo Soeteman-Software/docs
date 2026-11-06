@@ -2,7 +2,7 @@
 
 Solutions for common problems with SEOChecker.
 
-## I don't see the SEO Checker section
+## I don't see the SEO section
 
 - Check that the `SEOChecker` package is installed and that the site has handled at least one request since.
 - Check that your user group has access to the section. See [Give users access](installation.md#give-users-access).

@@ -9,9 +9,9 @@ then imports the products into the right category.
 ## Create a child definition
 
 1. In the **Import definitions** tree, open the actions menu of the parent definition (here **ProductCategory**).
-2. Select **Create child definition**.
+2. Select **Create Child definition**.
 
-    ![Actions menu of an import definition with Create child definition](../assets/images/structured-content-1.png)
+    ![Actions menu of an import definition with Create Child definition](../assets/images/structured-content-1.png)
 
 The import wizard starts again, with a few differences described below.
 
@@ -23,11 +23,11 @@ When you pick the same data source type as the parent, the wizard selects the pa
 
 ### Set the content import options
 
-You don't choose a location, because each item is stored under its parent record. Instead you set the
-**parent relation key**: the field that links a record to its parent. In this example that is
-`ProductCategoryId`.
+You don't choose a location, because each item is stored under its parent record. Instead you choose the
+**Select parent relation column**: the field that links a record to its parent. In this example that is
+`ProductCategoryID`.
 
-![Content import options of a child definition with the parent relation key](../assets/images/structured-content-3.png)
+![Content import options of a child definition with the parent relation column](../assets/images/structured-content-3.png)
 
 All other steps are the same as in the [import wizard](wizard.md).
 

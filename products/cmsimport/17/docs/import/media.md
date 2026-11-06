@@ -14,7 +14,12 @@ assigns the folder, if the property editor allows that.
 
 In the example below, the `img` folder of the original site, with two images, is copied to the import location.
 
-![File explorer showing the img folder with two images copied into the site](../assets/images/media-1.png)
+```text
+wwwroot/
+└── img/
+    ├── bike-1.jpg
+    └── bike-2.jpg
+```
 
 Use the settings icon next to the media mapping to set where the media is stored in Umbraco.
 

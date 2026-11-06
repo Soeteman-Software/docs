@@ -10,8 +10,7 @@ already has properties for these, map them in the Data Type.
 
 ![SEO Checker Data Type configuration with numbered settings](../assets/images/property-editors-1.png)
 
-1. **Automatic validation mode** — whether to check the page for SEO issues never, always when it is opened, or
-   after it is saved.
+1. **Validate after every save** — check the page for SEO issues automatically after every save.
 2. **Map title against property** — your existing SEO title property.
 3. **Map keywords against property** — your existing keywords property.
 4. **Map description tag against property** — your existing SEO description property.

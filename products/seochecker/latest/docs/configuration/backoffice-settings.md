@@ -1,6 +1,6 @@
 # Backoffice settings
 
-The **Settings** folder in the SEO Checker section holds the ignore lists, user group permissions and email
+The **Settings** folder in the SEO section holds the ignore lists, user group permissions and email
 settings. This page also covers personal notifications and clearing the cache.
 
 ## Ignore lists
@@ -17,7 +17,7 @@ Select items and delete them to remove them from the list. They are reported aga
 
 Set what each user group can do in SEOChecker. Administrators always have access to everything.
 
-![Permissions grid with a row per user group](../assets/images/backoffice-settings-1.png)
+![Permissions grid with a column per user group](../assets/images/backoffice-settings-1.png)
 
 ## Email settings
 
@@ -43,7 +43,7 @@ Sent for [my notifications](#my-notifications). You can set the same options. Th
 
 ## My notifications
 
-Every user with access to the SEO Checker section can get an email about the issues on the site. Choose the days
+Every user with access to the SEO section can get an email about the issues on the site. Choose the days
 and time you want to receive it.
 
 ![My notifications with days and time](../assets/images/backoffice-settings-2.png)
@@ -57,11 +57,4 @@ The email contains:
 
 ## Clear the cache
 
-Saving any SEOChecker setting clears the cache. To clear it without changing settings:
-
-1. Open the actions menu of the **SEO Checker** root node and select **Clear cache**.
-2. Click **OK**.
-
-In a load-balanced setup, the cache is cleared on all servers.
-
-![Clear cache confirmation](../assets/images/backoffice-settings-3.png)
+Saving any SEOChecker setting clears the cache. In a load-balanced setup, the cache is cleared on all servers.

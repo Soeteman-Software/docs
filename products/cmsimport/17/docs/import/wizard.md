@@ -8,7 +8,7 @@ To start the wizard, go to the **Import** section, open **CMSImport** and select
 
 Choose what you want to import: **Content**, **Member** or **Dictionary items**.
 
-![Import data step with the Import Data as drop-down showing Content, Member and Dictionary items](../assets/images/wizard-1.png)
+![Import data step with the Import Data as drop-down](../assets/images/wizard-1.png)
 
 ## 2. Select the data source type
 
@@ -28,7 +28,7 @@ enter a URL, or enter a connection string so CMSImport can read the data.
 For an Excel file, upload an `.xls` or `.xlsx` file or point to its location. Click **Next**, then pick the
 worksheet from the drop-down.
 
-![Excel data source options with the worksheet drop-down](../assets/images/wizard-3.png)
+![Excel data source options with the uploaded file and the worksheet drop-down](../assets/images/wizard-3.png)
 
 ## 4. Set the import options
 
@@ -64,7 +64,7 @@ CMSImport can keep the structure of your data. Normally you do this with
 [parent and child import definitions](structured-content.md). Sometimes the data refers to itself instead, for
 example product categories that have a parent category.
 
-Select the recursive import option and choose the field that holds the key of the parent record, for example
+Select **Enable recursive imports** and choose the field that holds the key of the parent record, for example
 `ParentProductCategoryID`.
 
 ![Recursive import option with ParentProductCategoryID selected as the parent key](../assets/images/wizard-6.png)
@@ -85,18 +85,20 @@ this during the import, based on the data source type, primary key name and prim
 ### Member import options
 
 - **Member type** — the Member Type of the imported members.
-- **Automatic assign role(s)** — the Member Group to add the imported members to.
+- **Assign Member group(s)** — the Member Group to add the imported members to.
+- **Select Member groups from the datasource** — read the Member Groups from a column in the data source
+  instead.
 - **When member exists** — choose **Skip** or **Update record**.
 - **Automatic generate password** — generates a password for each imported member.
 - **Send credentials via mail** — emails the login details to each imported member. You can change the email
   template; see [Configuration](../configuration.md#login-credentials-mail).
 - **Delete old records** — works the same as for [content](#delete-old-records).
 
-![Select Member options step with Member type, Automatic assign role(s), When member exists, Delete old records, Automatic generate password and Send credentials via mail](../assets/images/wizard-7.png)
+![Member options step with Member type, Assign Member group(s), When member exists, Delete old records, Automatic generate password and Send credentials via mail](../assets/images/wizard-7.png)
 
 ### Dictionary import options
 
-- **When the item already exists** — choose **Update** or **Skip**.
+- **When the record already exists** — choose **Update** or **Skip**.
 - **Delete old records** — works the same as for [content](#delete-old-records).
 
 ![Dictionary import options](../assets/images/wizard-8.png)
@@ -121,7 +123,7 @@ Most property editors have extra options. Click the settings icon next to a mapp
 when you map to a Media Picker or Rich Text Editor, you can set where media is stored and enter a default value.
 See [Related media import](media.md).
 
-![Advanced settings for a mapped property](../assets/images/wizard-10.png)
+![Advanced settings of a date mapping with the date time format](../assets/images/wizard-10.png)
 
 ## 6. Confirm
 
@@ -144,4 +146,4 @@ later or [schedule it](../scheduling.md). **Create copy** saves a copy of the cu
 
 Saved imports are called import definitions. You find them in the **Import definitions** tree.
 
-![Import definitions tree with saved imports](../assets/images/wizard-14.png)
+![Import definitions tree with a saved import and its child definition](../assets/images/wizard-14.png)
