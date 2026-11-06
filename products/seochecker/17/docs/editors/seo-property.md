@@ -6,7 +6,7 @@ the page is optimized for a keyword.
 Add a property that uses the **SEO Checker** Data Type to your Document Types. To configure it, see
 [Property editors](../configuration/property-editors.md#seo-checker).
 
-![SEO Checker property with snippet preview, focus keyword, SEO title, SEO description and validation result](../assets/images/seo-property-1.png)
+![SEO Checker property with snippet preview, focus keyword, SEO title and SEO description](../assets/images/seo-property-1.png)
 
 ## Snippet preview
 

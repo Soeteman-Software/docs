@@ -69,5 +69,5 @@ Add a property with one of these aliases to a Document Type to change how SEOChe
 | `seoCanonicalUrl` | Content Picker | The page to use as the canonical URL. |
 | `seoXmlSiteMapHide` | Toggle | When on, the page is left out of the XML sitemap. |
 | `seoIncludeRootInXmlSitemap` | Toggle | On a root node, such as a data folder: when on, the node is included in every sitemap. |
-| `seoExcludeValidation` | Toggle | When on, the page is skipped by **Validate Pages**. The SEO property still validates the page. |
+| `seoExcludeValidation` | Toggle | When on, the page is skipped by **Validate pages**. The SEO property still validates the page. |
 | `seoForceHTTPS` | Toggle | When on, the XML sitemap uses the HTTPS URL of the page. |

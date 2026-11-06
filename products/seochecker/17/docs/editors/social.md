@@ -2,7 +2,7 @@
 
 The SEO Checker Social property editor shows how a page appears when it is shared on social media.
 
-![Social preview of a page as it appears on Facebook and X](../assets/images/social-1.png)
+![Social preview of a page as it appears on Facebook](../assets/images/social-1.png)
 
 | Network | Tags |
 |---|---|

@@ -25,22 +25,19 @@ you send the same path to different pages, depending on the domain or query stri
 Click **Create redirect** and enter the URL to redirect from. SEOChecker decides from the file extension
 whether this is a content or a media redirect.
 
-### Basic settings
+![Create redirect dialog with numbered settings](assets/images/redirects-2.png)
 
-![Basic settings of a redirect](assets/images/redirects-2.png)
-
-1. The old URL to redirect from.
-2. The page to redirect to. For a media redirect this opens the media picker.
-3. Or enter a URL to redirect to.
-
-### Advanced settings
-
-![Advanced settings of a redirect](assets/images/redirects-3.png)
-
-1. **Wildcard URL** — redirects every URL below this path too. For example, with `modules` as a wildcard,
+1. **Old url** — the old URL to redirect from.
+2. **Redirect to node** — the page to redirect to. For a media redirect this opens the media picker.
+3. **Or redirect to url** — or enter a URL to redirect to.
+4. **Wildcard url** — redirects every URL below this path too. For example, with `modules` as a wildcard,
    `modules/seochecker` is redirected as well. The overview shows it as `modules/*`.
-2. **Domain** — only redirect requests for this domain.
-3. **Query string** — only redirect requests that contain this query string.
+
+The dialog shows two more fields when you turn them on in
+[`RedirectConfig`](configuration/appsettings.md#redirectconfig):
+
+- **Domain** — only redirect requests for this domain. Needs `StoreDomain`.
+- **Querystring** — only redirect requests that contain this query string. Needs `StoreQueryString`.
 
 ## Redirect manager on a page
 
@@ -53,7 +50,7 @@ Document Type to manage the redirects to that page. It only shows the redirects 
 
 Users with access to the SEOChecker settings can import redirects from an Excel or CSV file.
 
-1. Open the redirect manager and select **Import redirects** from the menu next to **Create redirect**.
+1. Open the redirect manager and select **Import** from the menu next to **Create redirect**.
 2. Choose the file type (Excel or CSV) and upload the file.
 3. Set the import options and click **Import**.
 
@@ -74,7 +71,7 @@ failed redirects to Excel, fix them, and import them again.
 
 ## Export redirects
 
-Open the redirect manager and select **Export redirects** from the menu next to **Create redirect**. The
+Open the redirect manager and select **Export** from the menu next to **Create redirect**. The
 redirects and/or broken links are exported to an Excel file.
 
 ## Redirects after a URL change

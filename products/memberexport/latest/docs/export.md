@@ -31,14 +31,14 @@ Use **Where** to export only the members that match your criteria.
 Use **Order by** to sort the members in the file. Click the sort direction to switch between ascending and
 descending.
 
-![Where conditions on Name and Created, and Order by Name ascending](assets/images/export-2.png)
+![Where conditions on Name and Id, and Order by Name ascending](assets/images/export-2.png)
 
 ## Save an export
 
 Click **Save As** and enter a name to save the export options as an export definition. Saved exports appear
 below **Export members** in the tree.
 
-![Export members tree with two saved exports](assets/images/export-3.png)
+![Export members below Tools in the Members section, with two saved exports](assets/images/export-3.png)
 
 A saved export only stores the options. MemberExport creates the file again, with the current members, every
 time you run it.

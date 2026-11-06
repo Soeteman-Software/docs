@@ -42,6 +42,18 @@ python -m http.server -d site 8000   # open http://localhost:8000
 
 See `CLAUDE.md` for the writing style guide.
 
+## Refreshing screenshots
+
+The images come from Playwright specs in each product repo (`tests/docs/*.docs.ts` in `<Product>.E2ETests`), run against
+a real, licensed site. To refresh them:
+
+1. Run the specs with `DOCS_SCREENSHOTS=1`. See the Docs screenshots section in the E2E README of the product (for
+   MediaProtect: `CLAUDE.md`).
+2. Look at every image: a passing run does not prove the image shows the right state.
+3. Copy the images to `products/<product>/<version>/docs/assets/images/`. Filenames match the existing ones.
+
+The current images were taken on Umbraco 18 and are used for all versions.
+
 ## Adding a version
 
 1. Copy the newest version folder, e.g. `products/cmsimport/latest` → `products/cmsimport/18`.
